@@ -1,0 +1,11 @@
+Here are some calculations for the fine metrology system.
+The goal is to be able to measure the opd between two (satellite) telescopes (d1 minus d2) by measuring
+several opd (dA-dB, dA-dC, dA-dD, dB-dC, dB-dD, dC-dD) between the chief satellite and the telescopes.
+
+Two taylor expansions have been performed to get an expression of the opd (d1 minus d2) as a function of the
+measured opds (dA-dB, dA-dC, dA-dD, dB-dC, dB-dD, dC-dD).
+
+d1_TaylorExpansion checks the accuracy of the expansions for measuring the distance between the chief satellite
+and one of the telescopes.
+
+d1_minus_d2 checks the accuracy of the opd (d1 minus d2)
