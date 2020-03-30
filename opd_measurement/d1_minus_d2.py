@@ -3,9 +3,9 @@ import matplotlib.pyplot as plt
 
 h = .3
 
-dA = 20
-dC = 21
-dD = 25
+dA = 20.0
+dC = 210
+dD = 25.0
 dB = 25.1
 
 d1 = np.sqrt( (dA**2 + dC**2) / 2 - h**2 / 4)
