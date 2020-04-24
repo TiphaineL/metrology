@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2a02ac2-5dc3-4b62-8cc5-faa2c65b2f8e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/opd_measurement/README" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bezier/Bezier_classes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bezier/Bezier_points.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bezier/math_toolbox.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bezier/old_code.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chip_design/Bezier_waveguides.py" beforeDir="false" afterPath="$PROJECT_DIR$/fine_opd_measurement/estimation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/opd_measurement/d1_TaylorExpansion.py" beforeDir="false" afterPath="$PROJECT_DIR$/opd_measurement/d1_TaylorExpansion.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/opd_measurement/d1_minus_d2.py" beforeDir="false" afterPath="$PROJECT_DIR$/opd_measurement/d1_minus_d2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/opd_measurement/metrology_opd_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/opd_measurement/d1_TaylorExpansion.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/opd_measurement/taylor_exp_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solve_linear_equations.py" beforeDir="false" afterPath="$PROJECT_DIR$/Various/solve_linear_equations.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,37 +24,81 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>Bezier</find>
-      <find>Bezier(</find>
-      <find>fig</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ZpG3b3IDiMxlgUtnepuqxsNb7S" />
   <component name="ProjectViewState">
+    <option name="compactDirectories" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="sortByType" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/Various" />
       <recent name="$PROJECT_DIR$/opd_measurement" />
       <recent name="$PROJECT_DIR$/Bezier" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.estimation">
+    <configuration name="Bezier_classes" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="tests" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/../NewProject/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Bezier" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Bezier/Bezier_classes.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="angles_free_propagation" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="tests" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/../NewProject/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chip_design" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chip_design/angles_free_propagation.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="d1_TaylorExpansion" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="tests" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="$PROJECT_DIR$/../NewProject/bin/python" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/opd_measurement" />
       <option name="IS_MODULE_SDK" value="false" />
@@ -65,6 +113,74 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="d1_minus_d2" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="tests" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/../NewProject/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/opd_measurement" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/opd_measurement/d1_minus_d2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="estimation" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="tests" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="$PROJECT_DIR$/../NewProject/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fine_opd_measurement" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fine_opd_measurement/estimation.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="old_code" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="tests" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/../NewProject/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Bezier" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Bezier/old_code.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.Bezier_classes" />
+      <item itemvalue="Python.angles_free_propagation" />
+      <item itemvalue="Python.d1_TaylorExpansion" />
+      <item itemvalue="Python.d1_minus_d2" />
+      <item itemvalue="Python.estimation" />
+      <item itemvalue="Python.old_code" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -84,43 +200,91 @@
       <option name="project" value="LOCAL" />
       <updated>1585537900526</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="New file structure + README file for opd_measurements">
+      <created>1585539159156</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1585539159156</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="New file structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="New file structure" />
+    <MESSAGE value="New file structure + README file for opd_measurements" />
+    <option name="LAST_COMMIT_MESSAGE" value="New file structure + README file for opd_measurements" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1816" y="362" width="1170" height="986" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585537947658">
+    <state x="744" y="362" width="1170" height="986" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587455261145">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="744" y="362" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1440.540.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1587455261145" />
+    <state x="-1816" y="362" width="1170" height="986" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900/-2560.0.2560.1440@-2560.0.2560.1440" timestamp="1585617167642" />
+    <state x="2184" y="-178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900/1440.-540.2560.1440@1440.-540.2560.1440" timestamp="1586405813482" />
+    <state x="-1642" y="499" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585539328642">
       <screen x="-2560" y="0" width="2560" height="1440" />
     </state>
-    <state x="-1816" y="362" width="1170" height="986" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900/-2560.0.2560.1440@-2560.0.2560.1440" timestamp="1585537947658" />
-    <state x="-1642" y="499" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585538660763">
+    <state x="-1642" y="499" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900/-2560.0.2560.1440@-2560.0.2560.1440" timestamp="1585539328642" />
+    <state x="-1769" y="186" key="CommitChangelistDialog2" timestamp="1585539159018">
       <screen x="-2560" y="0" width="2560" height="1440" />
     </state>
-    <state x="-1642" y="499" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900/-2560.0.2560.1440@-2560.0.2560.1440" timestamp="1585538660763" />
-    <state x="-1769" y="186" key="CommitChangelistDialog2" timestamp="1585537900355">
-      <screen x="-2560" y="0" width="2560" height="1440" />
-    </state>
-    <state x="-1769" y="186" key="CommitChangelistDialog2/0.0.1440.900/-2560.0.2560.1440@-2560.0.2560.1440" timestamp="1585537900355" />
+    <state x="-1769" y="186" key="CommitChangelistDialog2/0.0.1440.900/-2560.0.2560.1440@-2560.0.2560.1440" timestamp="1585539159018" />
     <state x="-1409" y="547" key="FileChooserDialogImpl" timestamp="1585529248905">
       <screen x="-2560" y="0" width="2560" height="1440" />
     </state>
     <state x="-1409" y="547" key="FileChooserDialogImpl/0.0.1440.900/-2560.0.2560.1440@-2560.0.2560.1440" timestamp="1585529248905" />
-    <state x="-1771" y="359" width="1350" height="1072" key="SettingsEditor" timestamp="1585529502257">
+    <state width="2534" height="409" key="GridCell.Tab.0.bottom" timestamp="1587455751290">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2534" height="409" key="GridCell.Tab.0.bottom/-1440.540.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1587455751290" />
+    <state width="2529" height="397" key="GridCell.Tab.0.bottom/0.0.1440.900/-2560.0.2560.1440@-2560.0.2560.1440" timestamp="1585647326005" />
+    <state width="2529" height="397" key="GridCell.Tab.0.bottom/0.23.1440.877/-2560.0.2560.1440@-2560.0.2560.1440" timestamp="1585542781673" />
+    <state width="2534" height="409" key="GridCell.Tab.0.center" timestamp="1587455751287">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2534" height="409" key="GridCell.Tab.0.center/-1440.540.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1587455751287" />
+    <state width="2529" height="397" key="GridCell.Tab.0.center/0.0.1440.900/-2560.0.2560.1440@-2560.0.2560.1440" timestamp="1585647326004" />
+    <state width="2529" height="397" key="GridCell.Tab.0.center/0.23.1440.877/-2560.0.2560.1440@-2560.0.2560.1440" timestamp="1585542781672" />
+    <state width="2534" height="409" key="GridCell.Tab.0.left" timestamp="1587455751286">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2534" height="409" key="GridCell.Tab.0.left/-1440.540.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1587455751286" />
+    <state width="2529" height="397" key="GridCell.Tab.0.left/0.0.1440.900/-2560.0.2560.1440@-2560.0.2560.1440" timestamp="1585647325844" />
+    <state width="2529" height="397" key="GridCell.Tab.0.left/0.23.1440.877/-2560.0.2560.1440@-2560.0.2560.1440" timestamp="1585542781671" />
+    <state width="2534" height="409" key="GridCell.Tab.0.right" timestamp="1587455751287">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2534" height="409" key="GridCell.Tab.0.right/-1440.540.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1587455751287" />
+    <state width="2529" height="397" key="GridCell.Tab.0.right/0.0.1440.900/-2560.0.2560.1440@-2560.0.2560.1440" timestamp="1585647326005" />
+    <state width="2529" height="397" key="GridCell.Tab.0.right/0.23.1440.877/-2560.0.2560.1440@-2560.0.2560.1440" timestamp="1585542781672" />
+    <state x="160" y="23" width="1350" height="900" key="SettingsEditor" timestamp="1587693135060">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="160" y="23" key="SettingsEditor/-1440.540.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1587693135060" />
+    <state x="-1771" y="359" width="1350" height="1072" key="SettingsEditor/0.0.1440.900/-2560.0.2560.1440@-2560.0.2560.1440" timestamp="1585540289173" />
+    <state x="90" y="0" width="1350" height="900" key="SettingsEditor/0.0.1440.900/-2560.0.2560.1440@0.0.1440.900" timestamp="1585648256313" />
+    <state x="1600" y="-540" key="SettingsEditor/0.0.1440.900/1440.-540.2560.1440@1440.-540.2560.1440" timestamp="1586322409767" />
+    <state x="1600" y="-540" key="SettingsEditor/0.23.1440.877/1440.-540.2560.1440@1440.-540.2560.1440" timestamp="1586322060302" />
+    <state x="-1880" y="335" key="Vcs.Push.Dialog.v2" timestamp="1585539167473">
       <screen x="-2560" y="0" width="2560" height="1440" />
     </state>
-    <state x="-1771" y="359" width="1350" height="1072" key="SettingsEditor/0.0.1440.900/-2560.0.2560.1440@-2560.0.2560.1440" timestamp="1585529502257" />
-    <state x="-1880" y="335" key="Vcs.Push.Dialog.v2" timestamp="1585537917199">
-      <screen x="-2560" y="0" width="2560" height="1440" />
+    <state x="-1880" y="335" key="Vcs.Push.Dialog.v2/0.0.1440.900/-2560.0.2560.1440@-2560.0.2560.1440" timestamp="1585539167473" />
+    <state x="-1043" y="816" key="com.intellij.ide.util.TipDialog" timestamp="1586903610746">
+      <screen x="-1440" y="540" width="1440" height="900" />
     </state>
-    <state x="-1880" y="335" key="Vcs.Push.Dialog.v2/0.0.1440.900/-2560.0.2560.1440@-2560.0.2560.1440" timestamp="1585537917199" />
-    <state x="-1854" y="451" key="com.intellij.ide.util.TipDialog" timestamp="1585528896276">
-      <screen x="-2560" y="0" width="2560" height="1440" />
-    </state>
+    <state x="-1043" y="816" key="com.intellij.ide.util.TipDialog/-1440.540.1440.900/0.0.2560.1440@-1440.540.1440.900" timestamp="1586903610746" />
+    <state x="706" y="442" key="com.intellij.ide.util.TipDialog/-1440.540.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1586838426922" />
     <state x="-1854" y="451" key="com.intellij.ide.util.TipDialog/0.0.1440.900/-2560.0.2560.1440@-2560.0.2560.1440" timestamp="1585528896276" />
     <state x="397" y="282" key="com.intellij.ide.util.TipDialog/0.0.1440.900/-2560.0.2560.1440@0.0.1440.900" timestamp="1585528433810" />
+    <state x="-1732" y="178" width="903" height="1083" key="find.popup" timestamp="1585646854190">
+      <screen x="-2560" y="0" width="2560" height="1440" />
+    </state>
+    <state x="-1732" y="178" width="903" height="1083" key="find.popup/0.0.1440.900/-2560.0.2560.1440@-2560.0.2560.1440" timestamp="1585646854190" />
+    <state x="985" y="290" key="refactoring.ChangeSignatureDialog" timestamp="1586913020880">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="985" y="290" key="refactoring.ChangeSignatureDialog/-1440.540.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1586913020880" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
